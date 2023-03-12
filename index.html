@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Web Audio API Range Sliders</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="row">
+  <div class="col ranges">
+    <label for="freq1">0-42Hz</label>
+    <input type="range" id="freq1" min="0" max="42" step="1" value="0">
+  </div>
+  <div class="col spacer"></div>
+  <div class="col">
+    <label for="freq2">0-72Hz</label>
+    <input type="range" id="freq2" min="0" max="72" step="1" value="0">
+  </div>
+  <div class="col spacer"></div>
+  <div class="col">
+    <label for="freq3">0-369Hz</label>
+    <input type="range" id="freq3" min="0" max="369" step="1" value="0">
+  </div>
+</div>
+<div class="row">
+  <span id="currentFreq">Current Frequency: 0 Hz</span>
+</div>
+<div class="row">
+  <button id="play">Play</button>
+  <button id="stop">Stop</button>
+</div>
+<!-- partial -->
+  <script  src="./js/script.js"></script>
+
+</body>
+</html>
